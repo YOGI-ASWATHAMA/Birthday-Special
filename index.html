@@ -1,456 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-        <title>Tooplate's Little Fashion</title>
+<link rel="stylesheet" href="style.css">
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="./script.js"></script>
 
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+<body>
+    <div id="p1" class="page">
+        <div class="container">
+            <h1 class="txt">Happy Birthday Buu</h1>
+            <img src="./static/cake.gif" alt="">
+            <h2 class="txt nothing">Here, I baked you a slice of digital cake Bebo 😘</h2>
+            <button id="start_button" onclick="document.getElementById('p2').scrollIntoView({ behavior: 'smooth'})">
+                <label class=" txt">Surprise Awaits</label>
+            </button>
+        </div>
+    </div>
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <div class="nav_bar">
+        <img id="icon" src="./static/icon.jpg"
+            onclick="document.getElementById('p1').scrollIntoView({ behavior: 'smooth'})" alt="">
+        <div id="links">
+            <button class="txt"
+                onclick="document.getElementById('p2').scrollIntoView({ behavior: 'smooth'})">Note</button>
+            <button class="txt"
+                onclick="document.getElementById('p3').scrollIntoView({ behavior: 'smooth'})">Video</button>
+            <button class="txt"
+                onclick="document.getElementById('p4').scrollIntoView({ behavior: 'smooth'})">Messages</button>
+        </div>
+    </div>
 
-        <link rel="stylesheet" href="css/slick.css"/>
+    <div id="footer">
+        <p class="madeby">
+            <span>Made with</span>
+            <span class="madeby__icon">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                    width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8 264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9z">
+                    </path>
+                </svg>
+            </span>
+            <span>by MUSHU</span>
+        </p>
+    </div>
 
-        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
-<!--
+    <div id="p2" class="page">
+        <div class="container">
+            <div class="note_container">
+                <h1 class="txt">Note</h1>
+                <p>
+                    Happy Birthdayyyy Pooku😍
+                </p>
+                <p>
+                    The day hs finally come, it feels like an eternity since we met. These past few months have been a
+                    whirlwind of emotions of joy, challenges, and moments spent with you was of pure magic. You've
+                    awakened a sense of wonder, imagination, and possibility that I thought I had lost.
+                </p>
 
-Tooplate 2127 Little Fashion
+                <p>
+                    After all those coffee breaks , I would rather call them dates now😅, gradually, you became my
+                    everything. You're the missing piece to the puzzle called life I was finding answers to.
 
-https://www.tooplate.com/view/2127-little-fashion
+                </p>
 
--->
-    </head>
-    
-    <body>
+                <p>
+                    We've faced soo together, learning and growing with every step. You've been my rock, my
+                    support, my biggest cheerleader, and my partner in crime. We've cried together, shared our
+                    deepest fears and insecurities. We've laughed until our sides ached, creating memories that will
+                    forever be etched in my heart. Our movie dates are always extra special, those moments, big and
+                    small, are what make our bond so unique and cherished.
+                </p>
+                <p>
+                    I know that life will throw us curveballs, but I face the future with confidence knowing that I have
+                    you by my side. You are my best friend, my kiddo, and the love of my life.
+                </p>
+                <p>
+                    May this year be filled with an abundance of happiness, laughter, and unforgettable adventures. I
+                    promise to cherish every moment we share and to always be there for you, through thick and thin.
+                </p>
+                <p>
 
-        <section class="preloader">
-            <div class="spinner">
-                <span class="sk-inner-circle"></span>
+                    I love you more than words can say ❤️❤️
+
+                </p>
             </div>
-        </section>
-    
-        <main>
+        </div>
+    </div>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
 
-                    <a class="navbar-brand" href="index.html">
-                        <strong><span>Little</span> Fashion</strong>
-                    </a>
+    <div id="p3" class="page">
+        <div class="container">
+            <h1 class="txt">Birthday Love Message</h1>
+            <iframe class="video_msg" src="https://drive.google.com/file/d/14Rx2fioyYF_BKG9XUZnh4NzHRx7QherS/preview"
+                allow="autoplay"> </iframe>
+            <h2 class="txt nothing">ik this is not enough to thank you 😅</h2>
+            <h2 class="txt nothing">Luv ju...</h2>
+        </div>
+    </div>
 
-                    <div class="d-lg-none">
-                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">Story</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="products.html">Products</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.html">FAQs</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-
-                        <div class="d-none d-lg-block">
-                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                        </div>
-                    </div>
+    <div id="p4" class="page">
+        <div class="container" id="p4_scroll">
+            <h1 class="txt">My Unexpressiveness😅</h1>
+            <h2 class="txt nothing">Summary of how this year has been for me with you bu my side.</h2>
+            <div class="review_container">
+                <div class="review_card">
+                    <p class="review_value">
+                        100%
+                    </p>
+                    <p class="review_desc txt">
+                        Happiness
+                    </p>
                 </div>
-            </nav>
-
-            <section class="slick-slideshow">   
-                <div class="slick-custom">
-                    <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt="">
-
-                    <div class="slick-bottom">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-10">
-                                    <h1 class="slick-title">Cool Fashion</h1>
-
-                                    <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
-
-                                    <a href="about.html" class="btn custom-btn">Learn more about us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="review_card">
+                    <p class="review_value">
+                        1000%
+                    </p>
+                    <p class="review_desc txt">
+                        Love
+                    </p>
                 </div>
-
-                <div class="slick-custom">
-                    <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" class="img-fluid" alt="">
-
-                    <div class="slick-bottom">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-10">
-                                    <h1 class="slick-title">New Design</h1>
-
-                                    <p class="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to your friends. Thank you for supporting us.</p>
-
-                                    <a href="product.html" class="btn custom-btn">Explore products</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="review_card">
+                    <p class="review_value">
+                        4-5
+                    </p>
+                    <p class="review_desc txt">
+                        One-sided fights
+                    </p>
                 </div>
-
-                <div class="slick-custom">
-                    <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" class="img-fluid" alt="">
-
-                    <div class="slick-bottom">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-10">
-                                    <h1 class="slick-title">Talk to us</h1>
-
-                                    <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
-
-                                    <a href="contact.html" class="btn custom-btn">Work with us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="review_card">
+                    <p class="review_value">
+                        crore
+                    </p>
+                    <p class="review_desc txt">
+                        Hugs and Kisses
+                    </p>
                 </div>
-
-            </section>
-
-            <section class="about section-padding">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-12 text-center">
-                            <h2 class="mb-5">Get started with <span>Little</span> Fashion</h2>
-                        </div>
-
-                        <div class="col-lg-2 col-12 mt-auto mb-auto">
-                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
-                                </li>
-
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">How we work?</button>
-                                </li>
-
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Capabilites</button>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-10 col-12">
-                            <div class="tab-content mt-2" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-                                    <div class="row">
-                                        <div class="col-lg-7 col-12">
-                                            <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-5 col-12">
-                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">Good <span>Design</span> <br>Ideas for <span>your</span> fashion</h4>
-
-                                                <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
-
-                                                <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
-
-                                                <div class="mt-2 mt-lg-auto">
-                                                    <a href="about.html" class="custom-link mb-2">
-                                                        Learn more about us
-                                                        <i class="bi-arrow-right ms-2"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
-
-                                    <div class="row">
-                                        <div class="col-lg-7 col-12">
-                                            <div class="ratio ratio-16x9">
-                                                <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-5 col-12">
-                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">Life at Studio</h4>
-
-                                                <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
-
-                                                <p>Custom work is branding, web design, UI/UX design</p>
-
-                                                <div class="mt-2 mt-lg-auto">
-                                                    <a href="contact.html" class="custom-link mb-2">
-                                                        Work with us
-                                                        <i class="bi-arrow-right ms-2"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
-                                    <div class="row">
-                                        <div class="col-lg-7 col-12">
-                                            <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-5 col-12">
-                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                                <h4 class="mb-3">What can help you?</h4>
-
-                                                <p>Over three years in business, We’ve had the chance on projects</p>
-
-                                                <div class="skill-thumb mt-3">
-
-                                                    <strong>Branding</strong>
-                                                        <span class="float-end">90%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                                            </div>
-
-                                                    <strong>Design & Stragety</strong>
-                                                        <span class="float-end">70%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                                                            </div>
-
-                                                    <strong>Online Platform</strong>
-                                                        <span class="float-end">80%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                                            </div>
-
-                                                </div>
-                                                
-                                                <div class="mt-2 mt-lg-auto">
-                                                    <a href="products.html" class="custom-link mb-2">
-                                                        Explore products
-                                                        <i class="bi-arrow-right ms-2"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="front-product">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center">
-
-                        <div class="col-lg-6 col-12">
-                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="px-5 py-5 py-lg-0">
-                                
-                                <h2 class="mb-4"><span>Retail</span> shop owners</h2>
-
-                                <p class="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
-
-                                <a href="products.html" class="custom-link">
-                                    Explore Products
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="featured-product section-padding">
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="col-12 text-center">
-                            <h2 class="mb-5">Featured Products</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <span class="product-alert me-auto">New Arrival</span>
-
-                                    <a href="#" class="bi-heart-fill product-icon"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Tree pot</a>
-                                        </h5>
-
-                                        <p class="product-p">Original package design from house</p>
-                                    </div>
-
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <span class="product-alert">Low Price</span>
-
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Fashion Set</a>
-                                        </h5>
-
-                                        <p class="product-p">Costume Package</p>
-                                    </div>
-
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Juice Drinks</a>
-                                        </h5>
-
-                                        <p class="product-p">Nature made another world</p>
-                                    </div>
-
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 text-center">
-                            <a href="products.html" class="view-all">View All Products</a>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-10 me-auto mb-4">
-                        <h4 class="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
-                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
-                        <br>
-                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-                    </div>
-
-                    <div class="col-lg-5 col-8">
-                        <h5 class="text-white mb-3">Sitemap</h5>
-
-                        <ul class="footer-menu d-flex flex-wrap">
-                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-4">
-                        <h5 class="text-white mb-3">Social</h5>
-
-                        <ul class="social-icon">
-
-                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
-                        </ul>
-                    </div>
-
+                <div class="review_card">
+                    <p class="review_value">
+                        Lifetime
+                    </p>
+                    <p class="review_desc txt">
+                        Warmth
+                    </p>
                 </div>
             </div>
-        </footer>
+            <h2 class="txt nothing">I Love You Meri Jaan😘</h2>
+        </div>
+    </div>
 
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/Headroom.js"></script>
-        <script src="js/jQuery.headroom.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/custom.js"></script>
 
-    </body>
+</body>
+
 </html>
